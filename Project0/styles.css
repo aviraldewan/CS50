@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    font-size: 16px;
+    width: 300px;
+    padding: 13px 0;
+}
+
+input[type=text] {
+    color: #464646;
+    margin: 0 0 0 5px;
+}
+
+input[type=submit] {
+    font-size: 14px;
+    width: 185px;
+    border-width: 0px;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+input[type=submit]:hover {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+
+input:focus {
+    outline: none;
+}
+
+.links, .links-advanced a {
+    text-align: right;
+    margin: 10px;
+}
+
+.links a, .links-advanced a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.google-logo {
+    margin: 10px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    margin-top: 10%;
+}
+
+.search-container .search-field {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid #afafaf;
+    align-items: center;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+.search-container .search-field input {
+    border-radius: 25px;
+    border: none;
+}
+
+.search-container .search-field #search-icon {
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.search-container input[type=submit] {
+    padding: 8px;
+    margin-top: 23px;
+    margin-right: 14px;
+}
+
+.search-container .logo-subtext {
+    color: blue;
+    position: relative;
+    left: 110px;
+    top: -18px;
+}
+
+.links-advanced {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.links-advanced .adv-logo {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.links-advanced .adv-logo img {
+    background-color: #f1f1f1;
+    width: 70%;
+    height: 70%;
+    margin-top: 5px;
+}
+
+.links-advanced .adv-links {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: #f1f1f1;
+}
+
+.links-advanced .adv-links a[href="images.html"] {
+    margin-top: 9px;
+}
+
+.bgcolor {
+    background-color: #f1f1f1;
+}
+
+.search-container .buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.separator-line {
+    border-bottom: solid 1px #d6d6d6;
+}
+
+.appbar {
+    margin: 30px 10px;
+}
+
+.appbar label {
+    color: #d93025;
+    font-size: 20px;
+    margin: 50px 30px;
+}
+
+.advanced-search-container {
+    margin: 50px 40px;
+}
+
+.advanced-search-container label {
+    display: inline-block;
+    width: 16%;
+    font-size: 20px;
+}
+
+.advanced-search-container .whitespace {
+    display: inline-block;
+    width: 50%;
+}
+
+.advanced-search-container .formgroup label {
+    width: 16%;
+    font-size: 14px;
+}
+
+.advanced-search-container .formgroup {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.advanced-search-container .formgroup input[type=text] {
+    width: 49%;
+    padding: 2px 0;
+}
+
+.advanced-search-container .formgroup .clarification {
+    font-size: 11px;
+    width: 30%;
+    margin-left: 1%;
+}
+
+.advanced-search-container .formgroup .right-align {
+    width: 50%;
+}
+
+input.bluebtn {
+    background-color: dodgerblue;
+    color: white;
+    font-size: smaller;
+    max-width: 200px;
+    border-radius: 0px;
+    border: 1px solid #156bbd;
+    float: right;
+    padding: 10px 2px;
+    margin: 0;
+}
